@@ -8,8 +8,18 @@ ThemeData myTheme() {
         centerTitle: true,
       ),
       textTheme: GoogleFonts.interTextTheme().copyWith(
+        headlineLarge: GoogleFonts.inter(
+            fontSize: 40, fontWeight: FontWeight.w700, color: headlineColor),
+        bodyMedium: GoogleFonts.inter(
+            fontSize: 18, fontWeight: FontWeight.w500, color: bodyColor),
+        bodySmall: GoogleFonts.inter(
+            fontSize: 16, fontWeight: FontWeight.w500, color: bodyColor),
         titleMedium: GoogleFonts.inter(
             fontSize: 20, fontWeight: FontWeight.w500, color: titleMediumColor),
+      ),
+      sliderTheme: const SliderThemeData(
+        inactiveTrackColor: onSurfaceColor, // this for deslect line
+        trackHeight: 2,
       ),
       filledButtonTheme: FilledButtonThemeData(
           style: ButtonStyle(

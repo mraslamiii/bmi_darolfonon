@@ -14,6 +14,8 @@ const onSurfaceColor = Color(0xffFFFFFF);
 
 //text color
 const titleMediumColor = Color(0xff8B8C9E);
+const headlineColor = Color(0xffFFFFFF);
+const bodyColor = Color(0xffFFFFFF);
 
 
 
