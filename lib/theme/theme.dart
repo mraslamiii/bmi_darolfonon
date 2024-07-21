@@ -8,12 +8,15 @@ ThemeData myTheme() {
         centerTitle: true,
       ),
       textTheme: GoogleFonts.interTextTheme().copyWith(
+
         headlineLarge: GoogleFonts.inter(
-            fontSize: 40, fontWeight: FontWeight.w700, color: headlineColor),
+            fontSize: 50, fontWeight: FontWeight.w700, color: headlineColor),
         bodyMedium: GoogleFonts.inter(
             fontSize: 18, fontWeight: FontWeight.w500, color: bodyColor),
         bodySmall: GoogleFonts.inter(
             fontSize: 16, fontWeight: FontWeight.w500, color: bodyColor),
+        titleLarge: GoogleFonts.inter(
+            fontSize: 22, fontWeight: FontWeight.w700, color: titleMediumColor),
         titleMedium: GoogleFonts.inter(
             fontSize: 20, fontWeight: FontWeight.w500, color: titleMediumColor),
       ),
