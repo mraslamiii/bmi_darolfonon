@@ -3,7 +3,6 @@ import 'package:bmi/pages/bmi_result.dart';
 import 'package:bmi/theme/colors.dart';
 import 'package:flutter/material.dart';
 
-
 //todo fix bug gender
 
 class BmiCalPage extends StatefulWidget {
@@ -37,7 +36,7 @@ class _BmiCalPageState extends State<BmiCalPage> {
           child: FilledButton(
               onPressed: () {
                 double bmi = _calculateBmi();
-
+                bmi = bmi * 10000;
                 Navigator.push(
                     context,
                     MaterialPageRoute(

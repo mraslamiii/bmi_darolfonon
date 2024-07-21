@@ -1,4 +1,3 @@
-import 'package:bmi/model/human.dart';
 import 'package:flutter/material.dart';
 
 class BmiResult extends StatefulWidget {
